@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Ejericio11 {
     public static void main(String[] args) {
-        System.out.println("Ejercicio #11: El numero mayor");
+        System.out.println("Ejercicio #11: El numero mayor de todos");
         int num;
         ArrayList<Integer> numeros = new ArrayList<>();
         Scanner entrada= new Scanner(System.in);
