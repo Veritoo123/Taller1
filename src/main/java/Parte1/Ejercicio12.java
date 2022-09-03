@@ -1,5 +1,6 @@
+package Parte1;
 import java.util.Scanner;
-class EJercicio12 {
+public class Ejercicio12 {
     public static void main(String[] args) {
         String Nom;
         Double Nht,Vhn,Het,Hee8,Sal;
@@ -9,7 +10,7 @@ class EJercicio12 {
         Scanner entrada= new Scanner(System.in);
         System.out.println("Ingrese su nombre: ");
         Nom= entrada.nextLine();
-        System.out.println("Ingrese el numero de horas trabajadas: ");
+        System.out.println("Ingrese el número de horas trabajadas: ");
         Nht= entrada.nextDouble();
         System.out.println("Ingrese el pago por hora de trabajo: ");
         Vhn= entrada.nextDouble();
@@ -25,7 +26,7 @@ class EJercicio12 {
         }else {
             Sal=Nht*Vhn;
         }
-        System.out.println("El trabajador "+Nom+" devengo: $"+Sal);
+        System.out.println("El trabajador "+Nom+" devengó: $"+Sal);
         
         }
     }
