@@ -6,7 +6,7 @@ public class PruebaFiguras {
         //Creación de figuras
         Circulo figura1= new Circulo(2);
         Rectangulo figura2 = new Rectangulo(1,2);
-
+        
         TrianguloRectangulo figura4 = new TrianguloRectangulo(3,5);
         Rombo figura5 = new Rombo (5,8,6);
         Trapecio figura6 = new Trapecio (5,8,6,4);
