@@ -1,6 +1,6 @@
-
+package Parte1;
 import java.util.Scanner;
-class EJercicio19 {
+public class Ejercicio19 {
     public static void main(String[] args) {
         System.out.println("Ingrese la medida del lado del triangulo equilatero: ");
         Scanner mt= new Scanner(System.in);

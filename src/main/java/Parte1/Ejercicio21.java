@@ -1,6 +1,7 @@
+package Parte1;
 import java.util.ArrayList;
 import java.util.Scanner;
-class EJercicio21 {
+public class Ejercicio21 {
     public static void main(String[] args) {
         double la;
         double l1,l2,l3;
